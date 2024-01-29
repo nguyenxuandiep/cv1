@@ -1,0 +1,203 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+h5 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+p {
+  color: #0baa88;
+  font-weight: bold;
+}
+
+.header {
+  margin-top: 75px;
+  border-bottom: 2px solid #0c0b0b;
+}
+.colName {
+  margin-top:47px;
+  justify-items: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Chia đôi chiều rộng cho 2 thẻ li */
+  padding-top: 0;
+}
+
+.containerAvt {
+  font-size: auto;
+  position: relative;
+}
+.container-info {
+  margin-top: 18px;
+}
+.title {
+  margin-bottom: 30px;
+}
+
+.title p {
+  margin: 3px 0 0;
+  font-weight: 600;
+}
+
+.rowTarget {
+  margin-left: 1px;
+}
+
+.noteTarget, .hSmal {
+  line-height: 1.5;
+  font-size:17px
+}
+span {
+  line-height: 1;
+}
+
+.hSmal {
+  color: black;
+  font-weight: 600;
+}
+
+.note {
+  display: inline-block;
+  margin-bottom:30px ;
+}
+.rightContent ul {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+
+.progress {
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  border-radius: 5px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+
+.profile-card {
+  background-color: #64b666a9;
+  color: white;
+  font-size: 18px;
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-card {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.profile-card .card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-card .names-job {
+  flex-grow: 1;
+}
+
+.profile-card .names {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.profile-card .job {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-card .contact {
+  text-align: right;
+}
+
+.profile-card .address {
+  text-align: right;
+  margin-top: 20px;
+}
+
+
+/* Header styles */
+.header {
+  background-color:rgba(73, 239, 112, 0.7);
+  color: white;
+}
+
+/* Avatar styles */
+.avatar {
+  width: 200px;
+  height: 200px;
+}
+
+.btn {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  opacity: 0.5;
+  margin-bottom: auto;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #464545;
+  color: white;
+  
+}
+.dark-mode .hSmal {
+  color:rgba(214, 218, 33, 0.993)
+}
+
+.dark-mode .header {
+  background-color: #a7a3a3;
+}
+
+.dark-mode .btn-secondary {
+  background-color: #777;
+}
+
+.dark-mode .header {
+  background-color: rgb(231, 226, 219);
+}
+
+.dark-mode h5 {
+  color: rgb(231, 131, 0)
+}
